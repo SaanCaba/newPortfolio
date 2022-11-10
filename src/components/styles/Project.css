@@ -83,6 +83,17 @@
   margin-right: 12px;
 }
 
+.capa span{
+  margin-left: 20px;
+  margin-right: 20px;
+  letter-spacing: 3px;
+}
+
+.capa-info{
+  margin-top: 30px;
+  color: rgb(205, 234, 38);
+}
+
 .swiper-slide div:hover > .capa {
   opacity: 1;
   visibility: visible;

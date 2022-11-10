@@ -39,8 +39,8 @@ function Projects() {
                             <div className='capa'>
                         <h1>{e.name}</h1>
                         <div className='d-flex flex-column'>
-                        <span>Tecnologias: {e.tecnologias}</span>
-                        <span className=''>{e.info}</span>
+                        <span >Tecnologías: {e.tecnologias}.</span>
+                        <span className='capa-info'>{e.info}</span>
                         </div>
                         </div>
                         </div>
