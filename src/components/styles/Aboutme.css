@@ -1,0 +1,81 @@
+
+
+.cont-aboutme{
+    z-index: 1;
+    height: 900px;
+    user-select:none;
+}
+.foto{
+    position: absolute;
+    height: 400px;
+    width: 300px;
+    top: 130px;
+    right: 500px;
+    filter: saturate(250%) opacity(1) ;
+    border-radius: 30%;
+}
+
+.cont-aboutme-content{
+    position: absolute;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bolder;
+    font-size: 18px;
+    color: white;
+    top: 300px;
+   left: 450px;  
+}
+.cont-ubi{
+    color: rgb(133, 225, 225);
+}
+
+@media(max-width: 820px){
+    
+    .cont-aboutme{
+        order: 0;
+        z-index: 1;
+        height: 600px;
+        user-select:none;
+        display: flex;
+        flex-direction: column;
+        margin-top:50px
+    }
+
+    
+
+    .cont-aboutme-content{
+        position: static;
+        font-family: 'Ubuntu', sans-serif;
+        font-weight: bolder;
+        font-size: 16px;
+        color: white;
+    }
+    .foto{
+        margin-bottom: 20px;
+        position: static;
+        filter: saturate(250%) opacity(1) ;
+        border-radius: 30%;
+    }
+}
+
+@media (max-width: 420px){
+    .cont-aboutme{
+        width: min-content;
+        display: block;
+        margin: auto;
+        margin-bottom: 100px;
+    }
+
+    .cont-aboutme-content{
+        position: static;
+        font-family: 'Ubuntu', sans-serif;
+        font-weight: bolder;
+        font-size: 16px;
+        color: white;
+    }
+    .foto{
+        margin-bottom: 20px;
+        position: static;
+        filter: saturate(250%) opacity(1) ;
+        border-radius: 30%;
+    }
+}

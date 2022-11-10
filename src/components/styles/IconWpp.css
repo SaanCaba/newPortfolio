@@ -1,0 +1,32 @@
+.cont-iconwpp{
+    position: relative;
+    z-index: 1000;
+}
+
+.link-wpp{
+    height: min-content;
+    position: sticky;
+    position: fixed;
+    top: 90%;
+    left: 95%;
+    bottom: -71%;
+    margin: 0;
+    border: none;
+    border-radius: 10px;
+    padding: 0;
+    background-color: transparent;
+}
+
+@media(max-width: 820px){
+    .link-wpp{
+        top: 76%;
+        left: 75%;
+    }
+}
+
+@media(max-width: 420px){
+    .link-wpp{
+        top: 76%;
+        left: 75%;
+    }
+}
