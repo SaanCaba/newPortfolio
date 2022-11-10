@@ -13,6 +13,12 @@
     right: 500px;
     filter: saturate(250%) opacity(1) ;
     border-radius: 30%;
+    transition: all 500ms ease-out;
+
+}
+
+.foto:hover{
+    filter: saturate(0%) opacity(1) ;
 }
 
 .cont-aboutme-content{
@@ -23,7 +29,14 @@
     color: white;
     top: 300px;
    left: 450px;  
+
 }
+
+/* .cont-aboutme-content span:hover {
+    color:rgb(205, 234, 38);
+    
+} */
+
 .cont-ubi{
     color: rgb(133, 225, 225);
 }

@@ -19,12 +19,18 @@ function Aboutme() {
         
         className=''>
             <div className=' position-relative'>
-            <div className='cont-foto position-relative'>
-                <img src={fotoperfil} className='foto '  alt="foto perfil"/>
+            <div 
+            // animate={{ marginBottom:'10px' }}
+            // transition={{
+            //   repeat: Infinity, duration: 2 
+            // }}
+            className='cont-foto position-relative'>
+                <motion.img 
+                src={fotoperfil} className='foto '  alt="foto perfil"/>
             </div>
                 <div className='d-flex flex-column cont-aboutme-content'>
                 <span>Hola, soy Santiago, Full Stack Developer.</span>
-                <span> Realicé mis estudios en SoyHenry, durante 5 meses,</span>
+                <span> Realicé mis estudios en SoyHenry durante 5 meses,</span>
                 <span>en los cuales desarrollé 2 <Link className='link-pro' to='proyecto' spy={true} offset={50} duration={500} smooth={true}>proyectos</Link>,</span>
                   <span> y además cuento con 800 horas de prácticas.</span>
                 <span> Proactivo, resiliente, paciente y tenaz. </span> 
