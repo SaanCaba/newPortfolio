@@ -25,7 +25,7 @@ function Projects() {
         }}
         navigation={true}
         modules={[Pagination, Navigation]}
-        className="mySwiper bg-dark"
+        className="mySwipe"
       >
         {
             images?.map((e, i) => {
@@ -33,10 +33,22 @@ function Projects() {
                     <div key={i}>
                         <SwiperSlide key={i}>
                             <div className='d-flex flex-column'>
+                              <span className='name-pro'>{e.name}</span>
+                              <div className='position-relative'>
                             <img src={e.img} className='img-proyect' />
+                            <div className='capa'>
+                        <h1>{e.name}</h1>
+                        <div className='d-flex flex-column'>
+                        <span>Tecnologias: {e.tecnologias}</span>
+                        <span className=''>{e.info}</span>
+                        </div>
+                        </div>
+                        </div>
+
                             <div className='d-flex justify-content-center cont-repos'>
                             <a href={e.repo} style={{ zIndex:1001 }} target='_blank'>
                         <img style={{ height: '34px' }} src={logoGitLink}/>
+                        
                         </a>
                         {
                         e.deploy ?  <a href={e.deploy} target='_blank'>

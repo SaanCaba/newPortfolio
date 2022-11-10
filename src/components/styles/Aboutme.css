@@ -57,6 +57,16 @@
     }
 }
 
+.link-pro{
+    color:rgb(205, 234, 38);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.link-pro:hover{
+    color:rgb(205, 234, 38) ;
+}
+
 @media (max-width: 420px){
     .cont-aboutme{
         width: min-content;

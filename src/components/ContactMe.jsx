@@ -26,7 +26,7 @@ function ContactMe() {
     <form ref={form} onSubmit={sendEmail} >
     <h3 className='title-contact' >Mandame tu mensaje!</h3>
       <section className='cont-nombre d-flex flex-column' >
-      <label>Name: </label>
+      <label>Nombre: </label>
       <input type="text" name="user_name" />
       </section>
       <section className='cont-email d-flex flex-column' >
@@ -34,10 +34,10 @@ function ContactMe() {
       <input type="email" name="user_email" />
       </section>
       <section className='cont-message d-flex flex-column' >
-      <label >Message: </label>
+      <label >Mensaje: </label>
       <textarea className='' name="message" />
       </section>
-      <button className='btn-contact' type="submit" value="Send">Send</button>
+      <button className='btn-contact' type="submit" value="Send">Enviar</button>
     </form>
     </div>
     <div id='con'>
