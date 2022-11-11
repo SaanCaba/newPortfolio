@@ -26,7 +26,10 @@
     user-select: none;
     animation: name 5s ease-in-out infinite;
     margin-left: 90px;
+
 }
+
+
 
 @keyframes name {
     0%{
@@ -49,11 +52,13 @@
     position: sticky;
     top: 30;
     cursor: pointer;
+    transition: all 500ms ease-out;
+
 }
 
 .a-nav:hover{
     color: rgb(196, 245, 104);
-    
+    font-size: 21px;
 }
 
 .btn-resume{
