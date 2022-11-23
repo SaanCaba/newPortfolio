@@ -1,32 +1,30 @@
 .cont-contact{
-    margin-bottom: 80px;
+   margin-bottom: 80px;
    backdrop-filter: blur(5px);
    border: 1px solid rgb(205, 234, 38);
    border-radius: 8px;
+   padding: 3px;
 }
 
 .cont-cont-contact{
-    width: 100%;
     display: flex;
     justify-content: center;
-
 }
 
 
 
 .cont-nombre{
-    padding-left: 190px;
-    padding-right: 190px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .cont-email{
-    padding-left: 190px;
-    padding-right: 190px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .cont-message{
-    padding-left: 150px;
-    padding-right: 150px;
+    padding: 30px;
 }
 
 input:focus{
@@ -35,6 +33,7 @@ input:focus{
 
 textarea:focus{
     outline: none;
+    margin: 0;
 }
 
 input{
@@ -53,7 +52,8 @@ textarea{
     font-weight: bold;
     border: none;
     border-radius: 12px;
-    height: 130px;
+    height: 200px;
+    width: 490px;
     border: 2px solid rgb(205, 234, 38);
     background-color: transparent;
     color: white;
@@ -63,12 +63,14 @@ textarea{
     background-color: rgb(205, 234, 38);
     color: black;
     border: none;
-    border-radius: 10px;
+    border-radius: 3px;
     margin-bottom: 5px;
+    margin-right: 3px;
     padding: 5px;
     font-weight: bold;
     margin-top: 10px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 100%;
 }
 
 .title-contact{
@@ -93,6 +95,23 @@ label{
         width: 100%;
         display: flex;
         justify-content: center;
+        scale: 1;
+    }
+    textarea{
+        height: 200px;
+        width: 350px;
+    }
+    .cont-nombre{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    
+    .cont-email{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .btn-contact{
+        width: 80%;
     }
     .cont-cont-contact{
         display: block;

@@ -1,11 +1,61 @@
 .cont-projects{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  width: min-content;
+  width: 60%;
+  height: min-content;
   display: block;
   margin: auto;
 
   }
 
+.grid-proyects{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: rgb(61, 59, 59);
+  border-bottom: 2px solid rgb(205, 234, 38);;
+  border-top: 2px solid rgb(205, 234, 38);;
+  border-radius: 7px 7px 10px 10px;
+  padding: 30px;
+}
+
+.cont-map-pro{
+  margin-left: 135px;
+  width: 300px;
+  margin-right: 10px;
+  margin-top: 20px;
+}
+
+.img-proyecto{
+  display: block;
+  margin: auto;
+  background-color: red;
+  width: 350px;
+  border-radius: 7px 7px 10px 10px;
+  object-fit: contain;
+  
+}
+
+
+
+@keyframes hoverPro{
+  0%{
+    height: 0;
+  }
+  100%{
+    opacity: 1;
+    height: max-content;
+  }
+}
+
+.cont-info-pro{
+  height: max-content;
+  background-color: rgb(17, 17, 17);
+  border-radius: 0px 0px 12px 12px;
+  opacity: 1;
+}
+
+.name-pro{
+  color:rgb(205, 234, 38);
+}
 
 .swiper {
     background-color: rgb(205, 234, 38);
@@ -94,12 +144,24 @@
   color: rgb(205, 234, 38);
 }
 
-.swiper-slide div:hover > .capa {
-  opacity: 1;
-  visibility: visible;
-}
+
+
+
 
 @media (max-width: 820px){
+  .cont-projects{
+    width: 90%;
+  }
+  .grid-proyects{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .cont-map-pro{
+    margin-right: 0px;
+    margin-left: 300px;
+    width: 200px;
+  }
   .swiper{
     width: 430px;
     height: 350px;
@@ -115,6 +177,37 @@
 }
 
 @media (max-width: 420px){
+  .cont-projects{
+    width: 90%;
+  }
+  .grid-proyects{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+  }
+  .cont-map-pro{
+    margin-right: 0px;
+    margin-left: 70px;
+    width: 200px;
+  }
+  .cont-info-pro{
+    height: max-content;
+    width: 100%;
+    background-color: rgb(17, 17, 17);
+    border-radius: 0px 0px 12px 12px;
+    opacity: 1;
+    font-size: 20px;
+  }
+  .img-proyecto{
+    display: block;
+    margin: auto;
+    background-color: red;
+    width: 300px;
+    border-radius: 7px 7px 10px 10px;
+    object-fit: contain;
+    
+  }
   .swiper {
     background-color: rgb(205, 234, 38);
     width: 330px;

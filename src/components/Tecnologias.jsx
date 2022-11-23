@@ -72,8 +72,8 @@ function Tecnologias() {
               return (
                 <motion.div
                 key={i}
-                whileHover={{ scale: 1.5, backgroundColor:'#66ff33'}}
-                whileTap={{ scale: 1.5 }}
+                whileHover={{ scale: 1.3, cursor: 'pointer'}}
+                whileTap={{ scale: 1.3 }}
                 className='box-img'
                 >
                   <img className="img-tec" src={e} />

@@ -3,6 +3,16 @@
     z-index: 1000;
 }
 
+.icono{
+    transition: all 500ms ease-out;
+}
+
+.icono:hover{
+    height: 40px;
+    width: 40px;
+    color: rgb(20, 72, 8);
+}
+
 .link-wpp{
     height: min-content;
     position: sticky;
