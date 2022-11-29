@@ -30,6 +30,17 @@ function Projects() {
                 <div className="d-flex flex-column cont-info-pro">
                   <span className="name-pro">Tecnologías: {e.tecnologias}.</span>
                   <span className="capa-info">{e.info}</span>
+                  <div className="bg-light">
+                    <a href={e.repo} target="_blank">
+                    <img src={logoGitLink} style={{width:'70px'}} />
+                    </a>
+                    {e.deploy && (
+                      <a href={e.deploy} target="_blank">
+                        <img src={vercelLogo} style={{width:'70px'}} />
+                      </a>
+                    ) }
+                    
+                  </div>
                 </div>
             </div>
           );
