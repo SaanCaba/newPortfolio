@@ -1,22 +1,20 @@
 
-
-
 .cont-tecnologias{
     height: 970px;
-
+    margin-bottom: 350px;
 }
 
 .title-tec{
-    padding-top: 60px;
-    
+    padding-top: 120px;
 }
 
 .tec-name{
-    color: rgb(205, 234, 38);
+    color: rgb(8, 8, 8);
     font-family: 'Ubuntu', sans-serif;
     font-weight: bold;
     font-size: 24px;
     margin-top: 90px;
+    user-select: none;
 }
 
 .cont-imgs{
@@ -24,7 +22,8 @@
     width: 550px;
     margin-left: 200px;
     margin-right: 200px;
-    padding: 30px;
+    gap: 10px;
+    padding: 10px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr ;
     border-radius: 30px;
@@ -35,7 +34,7 @@
 .box-img{
     background-color: rgba(205, 234, 38);
     margin: 20px;
-    padding: 10px;
+    padding: 20px;
     border-radius: 40px;
 }
 
@@ -46,15 +45,15 @@
 
 @media (max-width: 420px){
     .cont-imgs{
-        height: 400px;
+        height: 300px;
         width: 400px;
         margin-left: 0px;
         margin-right: 0px;
         padding: 0px;
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr ;
+        grid-template-columns: 1fr 1fr  ;
         border-radius: 30px;
-        
+        gap:0px;
     }
     .img-tec{
         width: 75px;

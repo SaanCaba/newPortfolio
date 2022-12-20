@@ -21,7 +21,6 @@
 }
 
 .sc-name{
-    color: rgb(255, 255, 255);
     font-size: 21px;
     user-select: none;
     animation: name 5s ease-in-out infinite;
@@ -33,13 +32,13 @@
 
 @keyframes name {
     0%{
-        color: rgb(205, 234, 38);;
+        color: rgb(58, 86, 6);
     }
     50%{
-        color: rgb(255, 255, 255);
+        color: rgb(8, 8, 8);
     }
     100%{
-        color: rgb(205, 234, 38);;
+        color: rgb(58, 86, 6);
     }
 }
 
@@ -48,7 +47,7 @@
 
 .a-nav{
     text-decoration: none;
-    color: white;
+    color: rgb(8, 8, 8);
     position: sticky;
     top: 30;
     cursor: pointer;
@@ -57,7 +56,7 @@
 }
 
 .a-nav:hover{
-    color: rgb(196, 245, 104);
+    color: rgb(58, 86, 6);
 }
 
 .btn-resume{

@@ -16,8 +16,8 @@ function Navbar() {
               duration: 1.5,
               
             }}
-            className="mt-4 cont-name">
-            <span className=" sc-name">Santiago Caballero <BsCodeSlash/>  </span>
+            className="mt-4 cont-name ">
+            <span className="sc-name">Santiago Caballero <BsCodeSlash/>  </span>
             </motion.div>
             <div className='cont-cont-temas'>
 

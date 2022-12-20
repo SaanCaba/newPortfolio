@@ -1,50 +1,38 @@
 .cont-projects{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  width: 60%;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  width: min-content;
   height: min-content;
   display: block;
   margin: auto;
-
   }
 
 .grid-proyects{
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  width: 100%;
+  justify-items: center;
+  grid-template-columns: 1fr 1fr 1fr;
   background-color: rgb(61, 59, 59);
   border-bottom: 2px solid rgb(205, 234, 38);;
   border-top: 2px solid rgb(205, 234, 38);;
   border-radius: 7px 7px 10px 10px;
-  padding: 30px;
+  padding: 60px;
 }
 
 .cont-map-pro{
-  margin-left: 135px;
-  width: 300px;
-  margin-right: 10px;
+  width: 400px;
   margin-top: 20px;
+  margin: 50px;
 }
 
 .img-proyecto{
   display: block;
   margin: auto;
-  background-color: red;
   width: 350px;
   border-radius: 7px 7px 10px 10px;
   object-fit: contain;
   
 }
 
-
-
-@keyframes hoverPro{
-  0%{
-    height: 0;
-  }
-  100%{
-    opacity: 1;
-    height: max-content;
-  }
-}
 
 .cont-info-pro{
   height: max-content;
@@ -57,42 +45,6 @@
   color:rgb(205, 234, 38);
 }
 
-.swiper {
-    background-color: rgb(205, 234, 38);
-    width: 700px;
-    height: 450px;
-    margin-top: 19px;
-  }
-  
-  .swiper-slide {
-    text-align: center;
-    font-size: 18px;
-    background-color: rgb(205, 234, 38);
-    
-  
-    /* Center slide text vertically */
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    -webkit-justify-content: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    -webkit-align-items: center;
-    align-items: center;
-  }
-  
-  .swiper-slide img {
-    display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    user-select: none;
-    transition: all 500ms ease-out;
-  }
 
   .cont-repos{
     background-color: rgb(205, 234, 38);
@@ -107,8 +59,8 @@
     font-family: 'Ubuntu', sans-serif;
     color: white;
     font-weight: bold;
-    color: rgb(205, 234, 38);
-
+    color: rgb(8, 8, 8);
+    text-decoration: underline;
 }
 
 .name-pro{
@@ -178,7 +130,7 @@
 
 @media (max-width: 420px){
   .cont-projects{
-    width: 90%;
+    width: min-content;
   }
   .grid-proyects{
     display: flex;
@@ -188,10 +140,11 @@
   }
   .cont-map-pro{
     margin-right: 0px;
-    margin-left: 70px;
+    margin-left: 0px;
     width: 200px;
   }
   .cont-info-pro{
+    padding: 10px;
     height: max-content;
     width: 100%;
     background-color: rgb(17, 17, 17);

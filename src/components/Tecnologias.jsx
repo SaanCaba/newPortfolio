@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import "./styles/Tecnologias.css";
-import js from "./images/logo-javascript-2.png";
+import js from "./images/JavaScript-logo (1).png";
 import html from "./images/htmlpng (2).png";
 import css from "./images/css.png";
 import nodejs from "./images/nodejs.png";
@@ -11,6 +11,8 @@ import mongodb from "./images/mongodb.png";
 import express from "./images/express.png";
 import postgreSQL from "./images/postgresql-logo.png";
 import git from "./images/git-logo.png";
+import ts from './images/ts.png'
+import tailwind from './images/tailwind.png'
 import { motion, useAnimation} from "framer-motion";
 import { useInView } from "react-intersection-observer";
 
@@ -24,12 +26,14 @@ function Tecnologias() {
   const refPrueba = useRef()
   const [img, setImgs] = useState([
     js,
+    ts,
     html,
     css,
     nodejs,
     reactjs,
     redux,
     bootstrap,
+    tailwind,
     mongodb,
     express,
     postgreSQL,
@@ -56,13 +60,6 @@ function Tecnologias() {
       </motion.div>
       <div className="d-flex justify-content-center">
         <motion.div
-          // ref={ref}
-          // initial={{ scale: 0 }}
-          // transition={{ duration: 3 }}
-          // animate={{ control }}
-          // className="cont-imgs"
-          // ref={ref}
-          // variants={boxVariant}
           initial="hidden"
           animate={control}
           className="cont-imgs"

@@ -1,7 +1,7 @@
 .cont-contact{
    margin-bottom: 80px;
    backdrop-filter: blur(5px);
-   border: 1px solid rgb(205, 234, 38);
+   border: 1px solid rgb(152, 176, 14);
    border-radius: 8px;
    padding: 3px;
 }
@@ -44,7 +44,7 @@ input{
     font-weight: bold;
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color:rgb(205, 234, 38);
+    color:rgb(24, 24, 24);
 }
 
 textarea{
@@ -54,9 +54,9 @@ textarea{
     border-radius: 12px;
     height: 200px;
     width: 490px;
-    border: 2px solid rgb(205, 234, 38);
+    border: 2px solid rgb(152, 176, 14);
     background-color: transparent;
-    color: white;
+    color: rgb(9, 9, 9);
 }
 
 .btn-contact{
@@ -74,7 +74,7 @@ textarea{
 }
 
 .title-contact{
-    color: rgb(205, 234, 38);
+    color: rgb(7, 7, 7);
     font-family: 'Ubuntu', sans-serif;
     font-weight: bold;
     text-decoration: underline;
@@ -82,7 +82,7 @@ textarea{
 }
 
 label{
-    color: white;
+    color: rgb(7, 7, 7);
     margin-top: 3px;
     margin-bottom: 3px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
