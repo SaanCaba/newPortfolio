@@ -13,6 +13,7 @@ import postgreSQL from "./images/postgresql-logo.png";
 import git from "./images/git-logo.png";
 import ts from './images/ts.png'
 import tailwind from './images/tailwind.png'
+import nextjs from './images/800px-Nextjs-logo.svg.png'
 import { motion, useAnimation} from "framer-motion";
 import { useInView } from "react-intersection-observer";
 
@@ -31,6 +32,7 @@ function Tecnologias() {
     css,
     nodejs,
     reactjs,
+    nextjs,
     redux,
     bootstrap,
     tailwind,
